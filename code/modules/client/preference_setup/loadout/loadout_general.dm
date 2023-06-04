@@ -305,3 +305,8 @@
 	display_name = "aurora miniature"
 	description = "A commemorative miniature of the NSS Aurora."
 	path = /obj/item/toy/aurora
+
+/datum/gear/dominia_honor
+	display_name = "dominian honor codex"
+	path = /obj/item/book/manual/dominia_honor
+	culture_restriction = list(/singleton/origin_item/culture/dominia, /singleton/origin_item/culture/dominian_unathi)
